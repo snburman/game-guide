@@ -60,9 +60,9 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'guideSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'Guide',
         },
         {to: 'https://bitscrawler.com', label: 'Play', position: 'left'},
         {
