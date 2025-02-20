@@ -5,8 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Bitscrawler',
-  tagline: 'Dinosaurs are cool',
+  title: 'bitscrawler',
   favicon: 'img/favicon.png',
 
   // Set the production url of your site here
@@ -53,9 +52,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'Bitscrawler',
+      title: 'bitscrawler',
       logo: {
-        alt: 'BitsCrawler Logo',
+        alt: 'bitscrawler logo',
         src: 'img/logo.png',
       },
       items: [
