@@ -3,7 +3,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import fonts from '../css/fonts.module.css';
-import css from './index.module.css'
 import React from 'react';
 import { StyleSheet } from '../types/style';
 import clsx from 'clsx';
@@ -13,7 +12,7 @@ const description = "Create and explore your own pixel world with our interactiv
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
-      <div style={styles.container} className={clsx(css.gradient)}>
+      <div style={styles.container}>
         <p className={clsx(fonts.pixelify)} style={styles.title}>
           {siteConfig.title}
         </p>
