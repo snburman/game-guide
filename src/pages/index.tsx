@@ -69,5 +69,8 @@ const styles: StyleSheet = {
     guideButton: { 
       backgroundColor: "#EE6300",
       color: "#fff",
+      borderColor: "#EE6300",
+      fontFamily: "Pixelify Sans",
+      fontSize: 20,
     },
 };
