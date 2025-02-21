@@ -18,15 +18,29 @@ function HomepageHeader() {
                 {siteConfig.title}
             </p>
             <p className={clsx(fonts.pixelify)} style={styles.subtitle}>
-            The multiplayer online pixel world created by players
+                The multiplayer online pixel world created by players
             </p>
-            <div>
+            <div style={styles.buttonContainer}>
                 <Link
                     className="button button--secondary button--lg"
                     to="/docs/intro"
-                    style={styles.guideButton}
+                    style={
+                        (styles.button,
+                        { backgroundColor: "#EE6300", borderColor: "#EE6300" })
+                    }
                 >
                     Player Guide
+                </Link>
+                <Link
+                    className="button button--secondary button--lg"
+                    to="https://bitscrawler.com"
+                    target="_blank"
+                    style={
+                        (styles.button,
+                        { backgroundColor: "#00E2EE", borderColor: "#00E2EE" })
+                    }
+                >
+                    Play Now
                 </Link>
             </div>
         </div>
@@ -66,11 +80,16 @@ const styles: StyleSheet = {
         textAlign: "center",
         marginBottom: 20,
     },
-    guideButton: { 
-      backgroundColor: "#EE6300",
-      color: "#fff",
-      borderColor: "#EE6300",
-      fontFamily: "Pixelify Sans",
-      fontSize: 20,
+    buttonContainer: {
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        flexDirection: "row",
+        gap: 20,
+    },
+    button: {
+        color: "#fff",
+        fontFamily: "Pixelify Sans",
+        fontSize: 20,
     },
 };

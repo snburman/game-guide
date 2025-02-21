@@ -1,0 +1,8 @@
+{
+  "label": "Play Game",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to use the game console to explore maps."
+  }
+}
