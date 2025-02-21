@@ -94,15 +94,6 @@ const config: Config = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'r/bitscrawler',
-              to: 'https://www.reddit.com/r/bitscrawler',
-            },
-          ],
-        },
-        {
           title: 'About',
           items: [
             {
