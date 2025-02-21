@@ -29,7 +29,7 @@ function HomepageHeader() {
                         { backgroundColor: "#EE6300", borderColor: "#EE6300" })
                     }
                 >
-                    Player Guide
+                    Player's Guide
                 </Link>
                 <Link
                     className="button button--secondary button--lg"
