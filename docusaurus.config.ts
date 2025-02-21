@@ -88,8 +88,17 @@ const config: Config = {
           title: 'Play',
           items: [
             {
-              label: 'Bitscrawler',
+              label: 'bitscrawler',
               to: 'https://bitscrawler.com',
+            },
+          ],
+        },
+        {
+          title: 'Community',
+          items: [
+            {
+              label: 'r/bitscrawler',
+              to: 'https://www.reddit.com/r/bitscrawler',
             },
           ],
         },
